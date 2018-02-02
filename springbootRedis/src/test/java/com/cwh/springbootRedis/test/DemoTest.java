@@ -14,10 +14,7 @@ import com.cwh.springbootRedis.dao.RedisDao;
 @SpringBootTest
 public class DemoTest {
 
-	 public static Logger logger= LoggerFactory.getLogger(DemoTest.class);
-	    @Test
-	    public void contextLoads() {
-	    }
+	 	public static Logger logger= LoggerFactory.getLogger(DemoTest.class);
 
 	    @Autowired
 	    RedisDao redisDao;
